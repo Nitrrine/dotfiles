@@ -1,3 +1,8 @@
+#
+# .alsoftrc
+# This file should make games that use OpenAL, like Minecraft to work correctly 
+#
+
 [general]
 drivers=pulse
 hrtf=true
