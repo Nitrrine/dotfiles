@@ -1,6 +1,9 @@
+![Preview](https://github.com/user-attachments/assets/98e14c3b-ede4-406f-a098-aa664498cb25)
+
+
 # dotfiles
 
-Just my dotfiles and nothing other.
+Just my dotfiles and nothing else.
 
 ## Summary
 
