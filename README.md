@@ -3,7 +3,7 @@
 
 # dotfiles
 
-Just my dotfiles and nothing else.
+Just my dotfiles and nothing else. I've provided some small documentation below. Contributions are welcome!
 
 ## Summary
 

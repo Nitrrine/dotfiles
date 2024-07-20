@@ -10,3 +10,4 @@ alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
 alias ll='ls -la'
+export GPG_TTY=$(tty)
