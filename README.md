@@ -23,6 +23,8 @@ File Manager: **Thunar**
 
 Font Family: **JetBrains Mono**
 
+Terminal: **Alacritty**
+
 Theme: **Cappuccin Frappe**
 
 ## Requirements
@@ -48,6 +50,11 @@ $ paru -S ttf-jetbrains-mono otf-font-awesome
 ### Thunar
 ```
 $ paru -S thunar
+```
+
+### Alacritty
+```
+$ paru -S alacritty
 ```
 
 ### Waybar
