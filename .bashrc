@@ -10,6 +10,7 @@ alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
 alias ll='ls -la'
+alias ff='fastfetch'
 alias code='codium . --ozone-platform-hint=auto'
 export GPG_TTY=$(tty)
 export EDITOR=nano
