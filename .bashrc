@@ -12,6 +12,7 @@ PS1='[\u@\h \W]\$ '
 alias ll='ls -la'
 alias code='codium . --ozone-platform-hint=auto'
 export GPG_TTY=$(tty)
+export EDITOR=nano
 
 # pnpm
 export PNPM_HOME="$HOME/.local/share/pnpm"
