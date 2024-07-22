@@ -11,7 +11,7 @@ PS1='[\u@\h \W]\$ '
 
 alias ll='ls -la'
 alias ff='fastfetch'
-alias code='codium . --ozone-platform-hint=auto'
+alias code='codium .'
 export GPG_TTY=$(tty)
 export EDITOR=nano
 
