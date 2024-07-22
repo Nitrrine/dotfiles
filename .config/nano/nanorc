@@ -25,7 +25,7 @@
 ## Automatically indent a newly created line to the same number of
 ## tabs and/or spaces as the preceding line -- or as the next line
 ## if the preceding line is the beginning of a paragraph.
-# set autoindent
+set autoindent
 
 ## Back up files to the current filename plus a tilde.
 # set backup
@@ -181,10 +181,10 @@
 # set stateflags
 
 ## Use this tab size instead of the default; it must be greater than 0.
-# set tabsize 8
+set tabsize 2
 
 ## Convert each typed tab to the fitting number of spaces.
-# set tabstospaces
+set tabstospaces
 
 ## Snip whitespace at the end of lines when justifying or hard-wrapping.
 # set trimblanks
