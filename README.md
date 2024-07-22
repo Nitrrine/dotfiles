@@ -56,11 +56,6 @@ $ paru -S thunar
 $ paru -S alacritty
 ```
 
-### Avizo
-```
-$ paru -S avizo pamixer brightnessctl
-```
-
 ### Waybar
 ```
 $ paru -S waybar
