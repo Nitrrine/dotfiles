@@ -1,0 +1,57 @@
+#!/bin/sh
+#
+# VoLi CTL (Volume Light Control) is simple yet easy to use shell script made to easily control volume and screen brightness
+# Author: Nitrrine (https://github.com/Nitrrine)
+#
+
+change_volume() {
+  MODE=$1
+  ICON=$2
+  case $MODE in
+    "increase") pactl set-sink-volume 0 +5%;;
+    "decrease") pactl set-sink-volume 0 -5%;;
+  esac
+  VOLUME=$(pactl get-sink-volume 0 | awk '/Volume:/{print $5}')
+  notify-send "Volume" "Changed volume to $VOLUME" -h int:value:$VOLUME -i audio-volume-$ICON -r 9382
+}
+
+change_light() {
+  MODE=$1
+  case $MODE in
+    "increase") brightnessctl set 10+;;
+    "decrease") brightnessctl set 10-;;
+    "max") brightnessctl set 200;;
+  esac
+  BRIGHTNESS=$(brightnessctl get)
+  SCALED_BRIGHTNESS=$(( ($BRIGHTNESS * 100) / 200 ))
+  notify-send "Brightness" "Changed brightness to $SCALED_BRIGHTNESS%" -h int:value:$SCALED_BRIGHTNESS -r 9382
+}
+
+case $1 in
+  "-v")
+    case $2 in
+      "+")
+        change_volume increase high
+      ;;
+      "-")
+        change_volume decrease low
+      ;;
+      "%")
+        pactl set-sink-mute 0 toggle
+      ;;
+    esac
+  ;;
+  "-l")
+    case $2 in
+      "+")
+        change_light increase
+      ;;
+      "-")
+        change_light decrease
+      ;;
+      "%")
+        change_light max
+      ;;
+    esac
+  ;;
+esac
