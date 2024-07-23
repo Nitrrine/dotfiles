@@ -10,11 +10,10 @@
         "hyprland/workspaces",
         "sway/mode",
         "sway/scratchpad",
-        "custom/media"
+        "custom/media",
+        "hyprland/window"
     ],
-    "modules-center": [
-        "sway/window"
-    ],
+    "modules-center": [],
     "modules-right": [
         "mpd",
         "pulseaudio",
@@ -24,7 +23,7 @@
         "memory",
         "temperature",
         "keyboard-state",
-        "sway/language",
+        "hyprland/language",
         "battery",
         "battery#bat2",
         "clock",
@@ -110,6 +109,11 @@
         // "format-critical": "{icon} {temperatureC}°C",
         "format": "{icon} {temperatureC}°C",
         "format-icons": ["", "", ""]
+    },
+    "hyprland/language": {
+        "format": " {}",
+        "format-en": "US",
+        "format-ru": "RU",
     },
     "backlight": {
         // "device": "acpi_video1",

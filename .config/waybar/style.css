@@ -7,7 +7,7 @@
 window#waybar {
     background-color: rgba(48, 52, 70, 0.7);
     border-bottom: 2px solid #51576d;
-    color: #ffffff;
+    color: #f4b8e4;
     transition-property: background-color;
     transition-duration: .5s;
 }
@@ -97,6 +97,7 @@ button:hover {
 #memory,
 #disk,
 #temperature,
+#language,
 #backlight,
 #network,
 #pulseaudio,
@@ -254,14 +255,6 @@ label:focus {
 
 #mpd.paused {
     background-color: #51a37a;
-}
-
-#language {
-    background: #00b093;
-    color: #740864;
-    padding: 0 5px;
-    margin: 0 5px;
-    min-width: 16px;
 }
 
 #keyboard-state {
