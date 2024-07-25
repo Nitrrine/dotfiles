@@ -8,13 +8,11 @@ Just my dotfiles and nothing else. I've provided some small documentation below.
 
 Distro: **Arch Linux**
 
-Protocol: **Wayland**
-
-Window Manager: **Hyprland**
+Window Manager: **Hyprland (Wayland)**
 
 Wallpaper: **Arch Linux [3840×2160]** ([source](https://www.reddit.com/r/wallpaper/comments/mbmps9/arch_linux_38402160/))
 
-App Launcher: **Tofi**
+Application Launcher: **Tofi**
 
 Audio Server: **PipeWire**
 
@@ -29,42 +27,13 @@ Theme: **Cappuccin Frappe**
 ## Requirements
 
 Make sure to install requirements so dotfiles will work correctly. 
-I'm using [paru](https://github.com/morganamilo/paru) the AUR helper for everything, you can use pacman.
+I'm using [paru](https://github.com/morganamilo/paru) as AUR helper, however you can use [yay](https://github.com/Jguer/yay).
 
-### Git
-```
-$ paru -S git
-```
+## Dependencies
 
-### Stow
 ```
-$ paru -S stow
+$ paru -S git stow thunar alacritty hyprland hypridle hyprlock waybar dunst tofi pipewire pipewire-alsa alsa-utils pulseaudio-utils gtk3 gtk4 nwg-look-bin ttf-jetbrains-mono otf-font-awesome
 ```
-
-### Fonts
-```
-$ paru -S ttf-jetbrains-mono otf-font-awesome
-```
-
-### Thunar
-```
-$ paru -S thunar
-```
-
-### Alacritty
-```
-$ paru -S alacritty
-```
-
-### Waybar
-```
-$ paru -S waybar
-```
-
-### Hyprland
-
-For installing Hyprland tiling compositor please follow instructions on Arch Wiki: 
-https://wiki.archlinux.org/title/Hyprland .
 
 ## Installation
 
