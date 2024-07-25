@@ -10,8 +10,8 @@
         "hyprland/workspaces",
         "sway/mode",
         "sway/scratchpad",
-        "custom/media",
-        "hyprland/window"
+        "custom/media"
+    //    "hyprland/window"
     ],
     "modules-center": [],
     "modules-right": [
