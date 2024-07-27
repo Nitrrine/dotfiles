@@ -1,4 +1,4 @@
-![Preview](https://github.com/user-attachments/assets/8ba2dc63-be1e-423c-841e-f038fd4d76b0)
+![Preview](https://github.com/user-attachments/assets/de7b01c6-8650-42b0-b9bd-0e1dd11e7aa7)
 
 # dotfiles
 
