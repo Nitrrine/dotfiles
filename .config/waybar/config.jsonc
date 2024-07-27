@@ -7,13 +7,14 @@
     "spacing": 0, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-        "hyprland/workspaces",
-        "sway/mode",
-        "sway/scratchpad",
+        "clock",
+        "hyprland/language",
         "custom/media"
     //    "hyprland/window"
     ],
-    "modules-center": [],
+    "modules-center": [
+        "hyprland/workspaces"
+    ],
     "modules-right": [
         "mpd",
         "pulseaudio",
@@ -23,10 +24,8 @@
         "memory",
         "temperature",
         "keyboard-state",
-        "hyprland/language",
         "battery",
         "battery#bat2",
-        "clock",
         "tray"
     ],
     "hyprland/workspaces": {
@@ -92,7 +91,7 @@
     "clock": {
         // "timezone": "America/New_York",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format": " {:%m-%d   %H:%M}",
+        "format": " {:%H:%M   %m-%d}",
         "format-alt": "{:Y-%m-%d}"
     },
     "cpu": {
