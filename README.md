@@ -32,7 +32,7 @@ I'm using [paru](https://github.com/morganamilo/paru) as AUR helper, however you
 ## Dependencies
 
 ```
-$ paru -S git stow thunar alacritty hyprland hyprpaper hypridle hyprlock waybar dunst tofi pipewire pipewire-alsa pipewire-pulse alsa-utils gtk3 gtk4 nwg-look-bin ttf-jetbrains-mono otf-font-awesome
+$ paru -S git stow thunar alacritty hyprland hyprpaper hypridle hyprlock waybar dunst tofi pipewire pipewire-alsa pipewire-pulse alsa-utils gtk3 gtk4 nwg-look ttf-jetbrains-mono otf-font-awesome
 ```
 
 ## Installation
